@@ -1,0 +1,72 @@
+/* Form Section */
+.form-section {
+    padding: 150px 20px;
+    text-align: center;
+    
+  }
+  
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    padding: 30px;
+    text-align: left;
+  }
+  
+  .form-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #E63946; /* Rojo destacado */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #1a535c; /* Azul oscuro */
+    margin-bottom: 5px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #E63946; /* Rojo al enfocar */
+    box-shadow: 0 0 5px rgba(230, 57, 70, 0.3);
+  }
+  
+  .form-button {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #E63946; /* Rojo vibrante */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #ffd1d1; /* Rojo claro */
+    color: #333;
+    box-shadow: 0 4px 10px rgba(230, 57, 70, 0.3);
+  }
+  

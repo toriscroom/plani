@@ -1,0 +1,105 @@
+/* CTA Planes Section */
+.cta-planes-section {
+  padding: 50px 20px;
+  text-align: left;
+}
+
+.cta-planes-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cta-planes-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #E63946; /* Rojo destacado para reflejar emergencia */
+  margin-bottom: 30px;
+}
+
+.cta-planes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Tarjetas de Planes */
+.cta-plan-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-plan-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cta-plan-highlight {
+  background-color: #32cd32; /* Verde para destacar el plan más popular */
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 15px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.cta-plan-tipo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1a535c;
+  margin-bottom: 10px;
+}
+
+.cta-plan-descripcion {
+  font-size: 1rem;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.cta-plan-precio {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #E63946; /* Rojo para reflejar la importancia */
+  margin-bottom: 10px;
+}
+
+.cta-plan-currency {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.cta-plan-billing {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.cta-plan-caracteristicas {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.cta-plan-caracteristicas li {
+  font-size: 1rem;
+  color: #333333;
+  margin-bottom: 5px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.cta-plan-caracteristicas li:before {
+  content: "✔";
+  color: #32cd32; /* Verde para resaltar características */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+

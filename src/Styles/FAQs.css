@@ -1,0 +1,72 @@
+/* FAQ Section */
+.faq-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.faq-container {
+  max-width: 1200px;
+  margin: 0 auto 20px;
+}
+
+.faq-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #E63946; /* Rojo destacado */
+  margin-bottom: 30px;
+}
+
+/* Tarjetas en formato vertical */
+.faq-grid {
+  display: flex;
+  flex-direction: column; /* Alinea las tarjetas verticalmente */
+  gap: 20px;
+  padding-top: 20px;
+}
+
+/* Estilo para las tarjetas */
+.faq-card {
+  background-color: #ffffff; /* Fondo blanco */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.faq-card:hover {
+  transform: translateY(-5px); /* Animación al pasar el mouse */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Pregunta */
+.faq-question {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1a535c; /* Azul oscuro */
+  margin-bottom: 10px;
+}
+
+/* Respuesta */
+.faq-answer {
+  font-size: 1rem;
+  color: #6c757d; /* Gris claro */
+  line-height: 1.5;
+  margin-top: 10px;
+  display: none; /* Ocultar respuesta por defecto */
+}
+
+.faq-card.active .faq-answer {
+  display: block; /* Mostrar respuesta cuando activo */
+  animation: fadeIn 0.3s ease; /* Añade una animación opcional */
+}
+
+/* Animación */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

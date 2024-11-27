@@ -1,0 +1,98 @@
+/* Features Section */
+.features-section {
+  padding: 150px 10px 150px;
+}
+
+.features-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+
+/* Carousel */
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.carousel-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 800px;
+  position: relative;
+}
+
+/* Tarjetas */
+.feature-card {
+  background-color: #d3d0d0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0.5;
+  width: 300px;
+  height: 400px;
+}
+
+.feature-card.active {
+  transform: scale(1.2);
+  opacity: 1;
+  z-index: 10;
+}
+
+.feature-card.next,
+.feature-card.prev {
+  transform: scale(0.8);
+  opacity: 0.8;
+  z-index: 5;
+}
+
+.feature-card.hidden {
+  display: none;
+}
+
+.feature-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.feature-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1a535c;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  font-size: 1rem;
+  color: #6c757d;
+  line-height: 1.6;
+}
+
+/* Botones */
+.carousel-button {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #1a535c;
+  transition: color 0.3s ease;
+}
+
+.carousel-button:hover {
+  color: #ff6b6b;
+}

@@ -1,0 +1,64 @@
+/* Casos de Éxito */
+.casos-exito-section {
+    padding: 0 20px 150px;
+  }
+  
+  .casos-exito-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: right;
+  }
+  
+  .casos-exito-title {
+    font-size: 2.8rem;
+    padding: 0 0 50px;
+    color: #E63946; /* Azul oscuro */
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0;
+  }
+  
+  .caso-card {
+    display: flex;
+    align-items: left;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .caso-card.reverse {
+    flex-direction: row-reverse; /* Alterna la dirección de los elementos */
+  }
+  
+  .caso-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .caso-imagen {
+    width: 30%; /* La imagen ocupa la mitad del card */
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .caso-texto-container {
+    width: 50%; /* El texto ocupa la otra mitad */
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .caso-texto {
+    font-size: 1.1rem;
+    color: #333333; /* Texto principal */
+    margin-bottom: 10px;
+  }
+  
+  .caso-autor {
+    font-size: 1rem;
+    color: #6c757d; /* Texto secundario */
+    font-style: italic;
+  }
+  
